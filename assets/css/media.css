@@ -1,0 +1,93 @@
+@media (max-width: 900px) {
+    /* h1,h2,h3 {
+        font-size: 30px !important;
+    }
+    h4 {
+        font-size: 25px !important;
+    }
+    h5, h6{
+        font-size: 20px !important;
+    }
+    p , a , li , button {
+        font-size: 20px !important;
+    } */
+    .navbar .top-nav{
+        padding:  0 0 10px 0px;
+    }
+    .navbar .top-nav .top-nav-content {
+        flex-direction: column-reverse !important;
+    }
+    .navbar .top-nav .top-nav-content , footer .content{
+        justify-content: center  !important;
+    }
+    footer .content{
+        flex-direction: column !important;
+    }
+    .navbar .top-nav .top-nav-content , footer .content ul{
+        padding: 20px 0px 0px 0px;
+    }
+    .navbar .top-nav .top-nav-content .content-items{
+        width: 100%;
+    }
+    .navbar .bottom-nav{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 117px;
+        right: -100%;
+        border-radius: 0px !important;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        transition: all 300ms linear;
+    }
+    header{
+        padding-top: 0px !important;
+    }
+    .active-nav{
+        right: 0 !important;
+    }
+    .services .box{
+        margin-top: 75px !important;
+    }
+    .navbar .navbar-toggler{
+        display: block !important;
+    }
+    .navbar .bottom-nav .nav-content .data-content ,
+    .navbar .bottom-nav .nav-content{
+        flex-direction: column;
+    }
+    .navbar .bottom-nav .nav-content .data-content li {
+        margin: 10px 0px;
+    }
+    .navbar .top-nav .call-number{
+        flex-direction: row;
+    }
+    .navbar .top-nav .call-number p{
+        margin: 0px 10px;
+    }
+    .call-number , .mobile-none{
+        display: none !important;
+    }
+    header .item{
+        padding: 150px 0px 0px 0px !important;
+    }
+    .copyrights .content{
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+    .copyrights .content p {
+        margin-bottom: 10px;
+    }
+    .teamwork .team-box .image-content{
+        height: 412px;
+    }
+    .teamwork .team-box .image-content img {
+        object-position: center;
+    }
+    .sub-header{
+        padding: 140px 0px 100px 0px;
+    }
+}
