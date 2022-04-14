@@ -1358,13 +1358,13 @@ header .owl-theme .owl-nav button i {
   height: 30px;
   -o-object-fit: contain;
      object-fit: contain;
-  -webkit-margin-end: 15px;
-          margin-inline-end: 15px;
+  -webkit-margin-end: 12px;
+          margin-inline-end: 12px;
 }
 
 .contact-data .contact-box span {
   color: #0097DB;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 700;
 }
 
